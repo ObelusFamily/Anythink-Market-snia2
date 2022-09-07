@@ -55,6 +55,7 @@ class Item extends React.Component {
                     ? "../placeholder.png"
                     : this.props.item.image
                 }
+                placeholder="../placeholder.png"
                 alt={this.props.item.title}
                 className="item-img"
                 style={{ height: "500px", width: "100%", borderRadius: "6px" }}
